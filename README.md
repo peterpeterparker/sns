@@ -5,3 +5,7 @@ A collection of [SNS.yaml](https://internetcomputer.org/docs/current/developer-d
 These files have been gathered in the repository of the projects. Most of the time, the links have been shared on the [DFINITY forum](https://forum.dfinity.org/).
 
 > The files might not reflect the initial parameters that were adopted and executed.
+
+| Project  | File                                    | Source                                                             |
+|:---------|:----------------------------------------|:-------------------------------------------------------------------|
+| ICPSwap  | [ICPSwap.yaml](sns_init/ICPSwap.yaml)   | [🔗](https://github.com/ICPSwap-Labs/sns/blob/main/sns_init.yaml)  |
