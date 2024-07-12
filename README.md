@@ -17,7 +17,8 @@ These files have been gathered in the repository of the projects. Most of the ti
 | ICPCC DAO LLC           | [ICPCC.yaml](sns_init/ICPCC.yaml)             | [Google Drive](https://drive.google.com/file/d/1-AFoIATMVhL60hDl7-JDCuPlg3R_aIeC/view)         |
 | Neutrinite              | [Neutrinite.yaml](sns_init/Neutrinite.yaml)   | [GitHub](https://gist.github.com/infu/5eb989bdc77fd835003a808fe0b7b4b3)                        |
 | Sneed DAO               | [Sneed.yaml](sns_init/Sneed.yaml)             | [GitHub](https://github.com/icsneed/sneed_sns_dapp/blob/main/sns/sns_init.yaml)                |
-| Trax                    | [Trax.yaml](sns_init/Trax.yaml)              | [GitHub](https://github.com/onlyontrax/TraxDAO/blob/main/sns/sns_init.yaml)                |
+| SONIC                   | [SONIC.yaml](sns_init/SONIC.yaml)             | [GitHub](https://github.com/sonicdex/sonic-v1/blob/main/sns/config/sns.yml)                |
+| Trax                    | [Trax.yaml](sns_init/Trax.yaml)               | [GitHub](https://github.com/onlyontrax/TraxDAO/blob/main/sns/sns_init.yaml)                |
 | WaterNeuron             | [WaterNeuron.yaml](sns_init/WaterNeuron.yaml) | [GitHub](https://github.com/WaterNeuron/WaterNeuron/blob/main/water_neuron_wtn_sns_init.yaml)  |
 
 ## Unknown
@@ -25,6 +26,7 @@ These files have been gathered in the repository of the projects. Most of the ti
 A few SNS DAOs are not listed as their SNS.yaml files do not seem to have been shared. If you have that information, PR welcome!
 
 - EstateDAO
+- Gold DAO
 - ICLighthouse DAO
 - Motoko
 - OpenFPL
