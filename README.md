@@ -22,6 +22,20 @@ These files have been gathered in the repository of the projects. Most of the ti
 | Trax                    | [Trax.yaml](sns_init/Trax.yaml)                | [GitHub](https://github.com/onlyontrax/TraxDAO/blob/main/sns/sns_init.yaml)                     |
 | WaterNeuron             | [WaterNeuron.yaml](sns_init/WaterNeuron.yaml)  | [GitHub](https://github.com/WaterNeuron/WaterNeuron/blob/main/water_neuron_wtn_sns_init.yaml)   |
 
+## Not Listed
+
+The SNS DAOs that were adopted with earlier versions of the tooling have SNS.yaml files that are either incompatible with the current tooling or too divergent. That is why they are not listed.
+
+- BOOM DAO
+- Catalyze
+- DecideAI DAO
+- Dragginz
+- Hot or Not
+- ICGhost
+- ICX
+- Kinic
+- OpenChat
+
 ## Unknown
 
 A few SNS DAOs are not listed as their SNS.yaml files do not seem to have been shared. If you have that information, PR welcome!
