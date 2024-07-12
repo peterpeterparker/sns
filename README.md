@@ -22,6 +22,7 @@ These files have been gathered in the repository of the projects. Most of the ti
 A few SNS DAOs are not listed as their SNS.yaml files do not seem to have been shared. If you have that information, PR welcome!
 
 - EstateDAO
+- ICLighthouse DAO
 - Motoko
 - OpenFPL
 - ORIGYN
