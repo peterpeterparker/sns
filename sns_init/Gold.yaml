@@ -123,15 +123,7 @@ fallback_controller_principals:
 # (`r7inp-6aaaa-aaaaa-aaabq-cai`) at latest at the time when the NNS proposal to
 # create an SNS is adopted (usually this is required even earlier, e.g., to
 # convince NNS neurons to vote in favor of your proposal).
-dapp_canisters:
-  # For the actual SNS launch, you should replace this with one or more
-  # IDs of the canisters comprising your to-be-decentralized dapp.
-  #
-  # For testing, propose_sns.sh will fill this in automatically.
-  - oh54a-baaaa-aaaap-abryq-cai # GLDT ledger
-  - oo6x4-xiaaa-aaaap-abrza-cai # GLDT ledger indexer
-  - o4yaf-3yaaa-aaaap-abr2a-cai # GLDT explorer frontend
-  - bojx2-iaaaa-aaaag-ab3jq-cai # GLDT landing page frontend
+dapp_canisters: []
 
 # Configuration of SNS tokens in the SNS Ledger canister deployed as part
 # of the SNS.
@@ -864,4 +856,4 @@ Swap:
   duration: 14 days
 
   # Whether Neurons' Fund participation is requested.
-  neurons_fund_participation: true
+  neurons_fund_participation: false
