@@ -54,17 +54,6 @@ A few SNS DAOs are not listed as their SNS.yaml files do not seem to have been s
 | ORIGYN                                             | [🔗](https://nns.ic0.app/project/?project=leu43-oiaaa-aaaaq-aadgq-cai)         |                                                                                        |
 | Yuku DAO                                           | [🔗](https://nns.ic0.app/project/?project=cj5nf-5yaaa-aaaaq-aacxq-cai)         | [🔗](https://yuku.app/whitepaper)                                                      |
 
-## Unsuccessful
-
-While the above-listed SNS were all successful, a few did not succeed. 
-
-> [!NOTE]
-> Following list is not exhaustive.
-
-| Project                  | File                                           | Source                                                                                          | SNS Swap                                                                                | White Paper                                                                                                                                                 |
-|:-------------------------|:-----------------------------------------------|:------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| IC Footprint             | [ICFootprint.yaml](sns_init/ICFootprint.yaml)  | [GitHub](https://github.com/CarbonCrowd/IC-Footprint/blob/main/sns_init%20(4).yaml)             | [🔗](https://nns.ic0.app/proposal/?u=qoctq-giaaa-aaaaa-aaaea-cai&proposal=131075)       | [🔗](https://firebasestorage.googleapis.com/v0/b/ic-footprint-docs.appspot.com/o/ICF%20Whitepaper.pdf?alt=media&token=4c0aa974-4e8a-4153-809c-f4184ae10f58) |
-
 ## Open
 
 Some SNS proposals or sales are open.
@@ -73,3 +62,14 @@ Some SNS proposals or sales are open.
 |:--------|:----------------------------------|:--------------------------------------------------------------------------------------------------|:-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DOGMI   | [DOGME.yaml](sns_init/DOGMI.yaml) | [GitHub](https://github.com/AccuSet/dogmi_sneed_sns_dapp/blob/main/sns/sns_init.yaml)             | -          | [🔗](https://drive.google.com/file/d/19zgq0fAgraVmqmdOqKCTiAG7OXamp9PU/view?usp=drivesdk)                                                                     |
 | ICCV    | [ICCV.yaml](sns_init/ICCV.yaml)   | [GitHub](https://github.com/IC-VC/sns-init/blob/main/sns_init.yaml)                               | -          | [🔗](https://ic-vc.com/docs/whitepaper.pdf)                                                                                                                   |
+
+## Unsuccessful
+
+While the above-listed SNS were all successful, a few did not succeed.
+
+> [!NOTE]
+> Following list is not exhaustive.
+
+| Project                  | File                                           | Source                                                                                          | SNS Swap                                                                                | White Paper                                                                                                                                                 |
+|:-------------------------|:-----------------------------------------------|:------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IC Footprint             | [ICFootprint.yaml](sns_init/ICFootprint.yaml)  | [GitHub](https://github.com/CarbonCrowd/IC-Footprint/blob/main/sns_init%20(4).yaml)             | [🔗](https://nns.ic0.app/proposal/?u=qoctq-giaaa-aaaaa-aaaea-cai&proposal=131075)       | [🔗](https://firebasestorage.googleapis.com/v0/b/ic-footprint-docs.appspot.com/o/ICF%20Whitepaper.pdf?alt=media&token=4c0aa974-4e8a-4153-809c-f4184ae10f58) |
