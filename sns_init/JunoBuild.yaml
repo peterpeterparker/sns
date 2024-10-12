@@ -1,0 +1,134 @@
+name: Juno Build
+description: Juno is a blockchain-as-a-service platform that empowers developers to build decentralized apps efficiently. It offers a comprehensive toolkit to scaffold secure and efficient projects.
+logo: logo.png
+url: https://juno.build
+
+NnsProposal:
+  title: "NNS Proposal to create an SNS named 'Juno Build'"
+
+  url: "https://forum.dfinity.org/t/upcoming-juno-build-sns-decentralization-swap/34719"
+
+  # Left empty. Generated automatically on proposals.network
+  summary: ""
+
+fallback_controller_principals:
+  - tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
+  - miso6-cu5ju-xcxwf-v2upq-mn32j-sn7lf-7mgiq-rh5ec-olmvw-a6z54-pqe
+
+dapp_canisters:
+  - cokmz-oiaaa-aaaal-aby6q-cai
+  - klbfr-lqaaa-aaaak-qbwsa-cai
+  - fmkjf-bqaaa-aaaal-acpza-cai
+
+Token:
+  name: Juno Build
+  symbol: JUNOBUILD
+  transaction_fee: 1_000_000 e8s
+  logo: logo.png
+
+Proposals:
+  rejection_fee: 100 tokens
+  initial_voting_period: 3 days
+  maximum_wait_for_quiet_deadline_extension: 1 day
+
+Neurons:
+  minimum_creation_stake: 10 tokens
+
+Voting:
+  minimum_dissolve_delay: 6 months
+
+  MaximumVotingPowerBonuses:
+    DissolveDelay:
+      duration: 3 years
+      bonus: 75%
+
+    Age:
+      duration: 3 years
+      bonus: 25%
+
+  RewardRate:
+    initial: 1.5%
+    final: 1.5%
+    transition_duration: 1 years
+
+Distribution:
+  Neurons:
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
+      stake: 4_000_000 tokens
+      memo: 0
+      dissolve_delay: 2 years
+      vesting_period: 5 years
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
+      stake: 4_000_000 tokens
+      memo: 1
+      dissolve_delay: 18 months
+      vesting_period: 3 years
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
+      stake: 4_000_000 tokens
+      memo: 2
+      dissolve_delay: 1 year
+      vesting_period: 2 years
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
+      stake: 4_000_000 tokens
+      memo: 3
+      dissolve_delay: 9 months
+      vesting_period: 18 months
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
+      stake: 4_000_000 tokens
+      memo: 4
+      dissolve_delay: 6 months
+      vesting_period: 1 year
+
+  InitialBalances:
+    governance: 50_000_000 tokens
+    swap: 30_000_000 tokens
+  total: 100_000_000 tokens
+
+Swap:
+  minimum_participants: 100
+
+  minimum_direct_participation_icp: 200_000 tokens
+  maximum_direct_participation_icp: 350_000 tokens
+  minimum_participant_icp:     1 token
+  maximum_participant_icp: 200_000 tokens
+
+  confirmation_text: >
+    I confirm my understanding of the responsibilities and risks
+    associated with participating in this token swap and that I am
+    not a resident of any of the excluded countries.
+
+  restricted_countries:
+    - AF # AFGHANISTAN
+    - BY # BELARUS
+    - BA # BOSNIA AND HERZEGOVINA
+    - BI # BURUNDI
+    - CF # CENTRAL AFRICAN REPUBLIC
+    - KP # NORTH KOREA
+    - CD # DEMOCRATIC REPUBLIC OF THE CONGO
+    - IR # IRAN
+    - IQ # IRAQ
+    - LB # LEBANON
+    - LY # LIBYA
+    - ML # MALI
+    - ME # MONTENEGRO
+    - MM # MYANMAR
+    - NI # NICARAGUA
+    - RU # RUSSIA
+    - RS # SERBIA
+    - SO # SOMALIA
+    - SD # SUDAN
+    - SY # SYRIA
+    - UA # UKRAINE
+    - VE # VENEZUELA
+    - YE # YEMEN
+    - ZW # ZIMBABWE
+
+  VestingSchedule:
+    events: 5
+    interval: 6 months
+
+  start_time: 13:00 UTC
+
+  duration: 14 days
+
+  neurons_fund_participation: true
